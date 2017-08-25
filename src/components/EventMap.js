@@ -242,7 +242,7 @@ export default function(store, opts){
           type: 'circle',
           source: 'events',
           paint: {
-            'circle-color': '#ff4b4d',
+            'circle-color': '#D19700',
             'circle-radius': 6,
             'circle-stroke-width': 2,
             'circle-stroke-color': 'white'
