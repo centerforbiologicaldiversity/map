@@ -1,6 +1,6 @@
 import querystring from 'querystring';
 
-import acluLogoFile from 'assets/images/logo-aclu.png';
+import defaultLogoFile from 'assets/images/logo.png';
 
 export default function parse() {
   // configure based on URL params (first hash, then querystring)
@@ -17,19 +17,10 @@ export default function parse() {
 
   let campaigns = {
     'default': {
-      logoFile: acluLogoFile,
-      hostEventLink: 'https://go.peoplepower.org/signup/host_new/',
+      logoFile: defaultLogoFile,
+      hostEventLink: 'https://ignite.biologicaldiversity.org/go/host',
       showACLU: true,
       filters: {},
-    },
-    'votingrights': {
-      logoFile: acluLogoFile,
-      hostEventLink: 'https://go.peoplepower.org/event/voting_rights/create/',
-      showACLU: false,
-      filters: {
-        'us_state': 'FL',
-        'eventType': 'votingRights'
-      },
     }
   };
   campaigns['vr'] = campaigns['votingrights']; // add shorter alias
