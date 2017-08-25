@@ -1,5 +1,4 @@
-## ACLU People Power event map
-More info coming soon...
+## Ignite Change Map
 
 ## Dev Environment Setup
 Ensure you have node v6.10.2+ and yarn installed on your machine then run
