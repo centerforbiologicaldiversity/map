@@ -9,7 +9,7 @@
       </span>
     </div>
     <h3 class="event-card-title">
-      <a :href="url" target="_blank">{{event.title}}</a>
+      <a :href="url">{{event.title}}</a>
     </h3>
     <div class="event-card-date">
       {{date}}
@@ -18,7 +18,7 @@
       {{event.venue}}
     </div>
     <div v-if="hasCapacity">
-      <a class="btn event-card-cta" :href="url" target="_blank">RSVP</a>
+      <a class="btn event-card-cta" :href="url">RSVP</a>
     </div>
   </div>
 </template>
