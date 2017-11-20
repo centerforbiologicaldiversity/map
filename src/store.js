@@ -43,7 +43,7 @@ const store = new Vuex.Store({
     loadEvents({commit}){
       xhr({
         method: 'GET',
-        url: '//d2hxsu1dkwoa8h.cloudfront.net/map_data.json',
+        url: '//d2pz3otbj7oi2r.cloudfront.net/map_data.json',
         json: true,
       }, (err, response) => {
         if (err) return;
