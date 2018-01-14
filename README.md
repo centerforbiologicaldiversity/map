@@ -29,18 +29,11 @@ _Note: requires docker._
 
 First build the app per instructions in the previous step, serve it locally, and make sure things look good.
 
-Then do either:
+Then just push the code to https://github.com/centerforbiologicaldiversity/map@master:
 
 ```
-yarn run dev-deploy
+git push origin master
 ```
 
-Or
-
-```
-yarn run prod-deploy
-```
-
-Depending on the situation.
-
-_Note: you will need `aws` installed and configured with your credentials first._
+Netlify will be notified of every new Git push to the master branch and will rebuild and deploy the map
+with ``yarn run build``, serving the `dist/` output on a static file server.
