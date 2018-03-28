@@ -28,7 +28,7 @@ export default function parse() {
   let options = campaigns[campaignName] || campaigns['default'];
 
   // replace source parameter, if available
-  options.source = params.source || 'map';
+  options.source = params.source || 'V18_IC';
   options.akid = params.akid || '';
 
   return options;
