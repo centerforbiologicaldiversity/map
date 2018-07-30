@@ -1,6 +1,6 @@
 import querystring from 'querystring';
 
-import defaultLogoFile from 'assets/images/logo.png';
+import defaultLogoFile from 'assets/images/center-ignite-logo.png';
 
 export default function parse() {
   // configure based on URL params (first hash, then querystring)
