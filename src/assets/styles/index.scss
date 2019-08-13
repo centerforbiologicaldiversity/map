@@ -28,7 +28,7 @@ button,
   font-family: "Freight Sans CMP";
   display: inline-block;
   font-weight: bold;
-  background: $light-blue;
+  background: $green;
   text-transform: uppercase;
   color: $white;
   border: none;
@@ -43,7 +43,7 @@ button,
 }
 
 input:focus {
-  outline-color: $light-blue;
+  outline-color: $green;
 }
 
 input[type="text"] {
