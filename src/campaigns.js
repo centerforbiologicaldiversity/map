@@ -1,6 +1,6 @@
 import querystring from 'querystring';
 
-import defaultLogoFile from 'assets/images/center-ignite-logo.png';
+import defaultLogoFile from 'assets/images/center-mobilize-logo.png';
 
 export default function parse() {
   // configure based on URL params (first hash, then querystring)
@@ -18,7 +18,7 @@ export default function parse() {
   let campaigns = {
     'default': {
       logoFile: defaultLogoFile,
-      hostEventLink: 'https://ignite.biologicaldiversity.org/go/host',
+      hostEventLink: 'https://mobilize.biologicaldiversity.org/go/host',
       showACLU: true,
       filters: {},
     }
