@@ -52,7 +52,7 @@ export default {
         .filter(Boolean);
     },
     url() {
-      return `https://map.biologicaldiversity.org/event/${this.event.campaign}/${this.event.id}?source=${this.source}&akid=${this.akid}`;
+      return `https://mobilize.biologicaldiversity.org/event/${this.event.campaign}/${this.event.id}?source=${this.source}&akid=${this.akid}`;
     }
   }
 }
