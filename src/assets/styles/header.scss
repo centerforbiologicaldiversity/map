@@ -49,9 +49,9 @@
   }
   button {
     width: 20%;
-    background: $red;
+    background: $green;
     &:hover {
-      background: $dark-red;
+      background: $green;
     }
   }
 }
@@ -112,9 +112,9 @@
 
 .filter-events-search {
   width: 100%;
-  background: $red;
+  background: $green;
   &:hover {
-    background: $dark-red;
+    background: $green;
   }
 }
 
