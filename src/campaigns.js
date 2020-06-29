@@ -18,7 +18,7 @@ export default function parse() {
   let campaigns = {
     'default': {
       logoFile: defaultLogoFile,
-      hostEventLink: 'https://mobilize.biologicaldiversity.org/signup/host',
+      hostEventLink: 'https://mobilize.biologicaldiversity.org/event/action/create',
       showACLU: true,
       filters: {},
     }
